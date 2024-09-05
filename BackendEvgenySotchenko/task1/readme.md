@@ -13,4 +13,43 @@ This implementation uses the Array.from() method to create an array of numbers f
 >>Summary:
 In summary, the second implementation using the formula is the most efficient, with a constant time complexity. The first and third implementations have a linear time complexity, with the first being slightly more efficient due to the lack of array creation and manipulation.
 
+## Unit Tests
+
+The project includes unit tests for each implementation to ensure their correctness. The tests are implemented without using any third-party libraries.
+
+### Running Unit Tests
+
+To run the unit tests, follow these steps:
+
+1. **Install TypeScript** (if you haven't already):
+
+   ```bash
+   npm install -g typescript
+
+Compile the TypeScript files:
+Navigate to the project directory and run:
+bash
+tsc
+
+Run the compiled JavaScript file:
+After compilation, run the tests using Node.js:
+bash
+node dist/index.js
+
+Make sure to replace dist/index.js with the path to your compiled test file if it's different.
+Expected Output
+If all tests pass, you should see the following message in the console:
+text
+All tests passed!
+
+## Example Usage
+You can call each implementation like this:
+typescript
+console.log(sum_to_n_a(5)); // Output: 15
+console.log(sum_to_n_b(5)); // Output: 15
+console.log(sum_to_n_c(5)); // Output: 15
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+text
 
