@@ -1,0 +1,25 @@
+{
+  "name": "scoreboard",
+  "version": "1.1.1",
+  "description": "testtask",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/soewal19/TestTaskGroup99/backend"
+  },
+  "keywords": [
+    "99"
+  ],
+  "author": "Me",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "express": "^4.19.2",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7"
+  }
+}
