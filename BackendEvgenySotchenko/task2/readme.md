@@ -46,7 +46,9 @@ This project is a backend server that allows users to interact with a set of res
 1. Clone the repository:
    ```bash
    git clone https://github.com/soewal19/TestTaskGroup99/task2.git
-   cd crude-server
+
+
+  
 
 Install the dependencies:
 bash
