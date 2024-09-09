@@ -42,8 +42,7 @@ src/
 
    ```bash
    git clone https://github.com/soewal19/TestTaskGroup99/edit/main/FrontendSotchenkoEugene/
-   cd wallet-page
-
+   
 ## Install dependencies:
 ```
 bash
