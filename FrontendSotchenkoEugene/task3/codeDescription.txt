@@ -1,0 +1,24 @@
+Here’s a detailed analysis of the computational inefficiencies and anti-patterns found in the provided React code, along with a refactored version to improve performance and maintainability. Additionally, I will provide a simple HTML and CSS structure along with a README.md file for the project.
+Issues and Anti-Patterns
+**********************************************************************************************************************
+Inefficient Sorting:
+The sortedBalances array is being filtered and sorted in a single useMemo call. This can lead to unnecessary computations if the balances array is large. Sorting should ideally be done only when necessary.
+Incorrect Variable Usage:
+The variable lhsPriority is referenced but not defined in the filtering logic. This will cause a runtime error.
+Redundant Mapping:
+The formattedBalances and rows are derived from sortedBalances, but formattedBalances is not used anywhere in the component. This leads to wasted computation.
+Using Index as Key:
+Using the index of the array as a key in React lists can lead to issues with component state and performance. It is better to use a unique identifier for each item.
+Lack of Type Safety:
+The getPriority function uses any for the blockchain parameter, which defeats the purpose of TypeScript's type safety. It should be typed appropriately.
+Unnecessary Re-renders:
+If prices changes frequently, it can cause unnecessary re-renders. Only derive values that depend on prices when necessary.
+
+*********************************************************************************************************************
+
+So now it looks something like this...
+
+
+Something like that, very confused!
+
+>>>> Well, hell, let's change that!
