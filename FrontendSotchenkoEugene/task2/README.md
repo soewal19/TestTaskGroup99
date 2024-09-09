@@ -31,9 +31,8 @@ To set up the project locally, follow these steps:
 1. **Clone the repository**:
 
    ```bash
-   git clone https://github.com/yourusername/currency-swap-app.git
-   cd currency-swap-app
-
+   git clone https://github.com/soewal19/TestTaskGroup99/tree/main/FrontendSotchenkoEugene
+  ```
 Install dependencies:
 bash
 npm install
