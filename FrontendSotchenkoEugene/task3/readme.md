@@ -41,7 +41,7 @@ src/
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/wallet-page.git
+   git clone https://github.com/soewal19/TestTaskGroup99/edit/main/FrontendSotchenkoEugene/
    cd wallet-page
 
 ## Install dependencies:
