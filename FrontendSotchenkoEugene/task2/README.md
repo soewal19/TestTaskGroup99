@@ -32,7 +32,7 @@ To set up the project locally, follow these steps:
 
    ```bash
    git clone https://github.com/soewal19/TestTaskGroup99/tree/main/FrontendSotchenkoEugene
-  ```
+  
 Install dependencies:
 bash
 npm install
